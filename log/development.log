@@ -1,0 +1,214 @@
+Started GET "/" for 127.0.0.1 at 2023-05-17 23:41:58 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 37.4ms | Allocations: 739)
+Completed 200 OK in 1282ms (Views: 171.6ms | ActiveRecord: 0.0ms | Allocations: 6155)
+
+
+Started GET "/tecnology" for 127.0.0.1 at 2023-05-17 23:42:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/tecnology"):
+  
+Started GET "/tecnology" for 127.0.0.1 at 2023-05-17 23:42:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/tecnology"):
+  
+Started GET "/tecnology" for 127.0.0.1 at 2023-05-17 23:46:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/tecnology"):
+  
+Started GET "/tecnology" for 127.0.0.1 at 2023-05-17 23:54:18 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/tecnology"):
+  
+Started GET "/technology" for 127.0.0.1 at 2023-05-17 23:58:38 -0400
+Processing by NewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering news/index.html within layouts/application
+  Rendered news/index.html within layouts/application (Duration: 25.9ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 11661.2ms | Allocations: 65939)
+Completed 500 Internal Server Error in 12317ms (Allocations: 67014)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/pc/Desktop/Ruby_on_Rails/portalNoticias/tmp/cache/assets/sprockets/v4.0.0/Va/VazJCfCD9F3rDoisqySOIiZTvu9kR2V0TG_Qechmcsc.cache.15010.248.571803, C:/Users/pc/Desktop/Ruby_on_Rails/portalNoticias/tmp/cache/assets/sprockets/v4.0.0/Va/VazJCfCD9F3rDoisqySOIiZTvu9kR2V0TG_Qechmcsc.cache)):
+  
+sprockets (4.2.0) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.2.0) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.2.0) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.2.0) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.2.0) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.2.0) lib/sprockets/loader.rb:263:in `store_asset'
+sprockets (4.2.0) lib/sprockets/loader.rb:226:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+C:/Ruby31/lib/ruby/3.1.0/set.rb:511:in `each_key'
+C:/Ruby31/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 00:00:07 -0400
+Processing by NewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering news/index.html within layouts/application
+  Rendered news/index.html within layouts/application (Duration: 12.8ms | Allocations: 320)
+  Rendered layout layouts/application.html.erb (Duration: 1100.7ms | Allocations: 25086)
+Completed 200 OK in 1267ms (Views: 1174.5ms | ActiveRecord: 0.0ms | Allocations: 29092)
+
+
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 00:26:10 -0400
+Processing by NewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering news/index.html within layouts/application
+  Rendered news/index.html within layouts/application (Duration: 28.4ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | Allocations: 1913)
+Completed 200 OK in 114ms (Views: 97.0ms | Allocations: 2979)
+
+
+Started GET "/deportes" for 127.0.0.1 at 2023-05-18 00:26:31 -0400
+Processing by NewsController#deportes as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering news/deportes.html within layouts/application
+  Rendered news/deportes.html within layouts/application (Duration: 25.1ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 1356)
+Completed 200 OK in 70ms (Views: 55.7ms | Allocations: 1717)
+
+
+Started GET "/deportes" for 127.0.0.1 at 2023-05-18 00:40:49 -0400
+Processing by NewsController#deportes as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering news/deportes.html within layouts/application
+  Rendered news/deportes.html within layouts/application (Duration: 18.4ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 711.5ms | Allocations: 23101)
+Completed 200 OK in 864ms (Views: 769.7ms | ActiveRecord: 0.0ms | Allocations: 27109)
+
+
+Started GET "/tecnology" for 127.0.0.1 at 2023-05-18 00:41:01 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/tecnology"):
+  
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 00:41:10 -0400
+Processing by NewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering news/index.html.erb within layouts/application
+  Rendered news/index.html.erb within layouts/application (Duration: 39.4ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 70.8ms | Allocations: 1601)
+Completed 200 OK in 91ms (Views: 75.6ms | ActiveRecord: 0.0ms | Allocations: 1992)
+
+
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 01:04:28 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 26.2ms | Allocations: 461)
+  Rendered layout layouts/application.html.erb (Duration: 1246.0ms | Allocations: 22599)
+Completed 200 OK in 1508ms (Views: 1400.6ms | ActiveRecord: 0.0ms | Allocations: 26622)
+
+
+Started GET "/deportes" for 127.0.0.1 at 2023-05-18 01:04:57 -0400
+Processing by PagesController#deportes as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/deportes.html within layouts/application
+  Rendered pages/deportes.html within layouts/application (Duration: 5.5ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 1547)
+Completed 200 OK in 49ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 1982)
+
+
+Started GET "/deportes" for 127.0.0.1 at 2023-05-18 01:23:38 -0400
+Processing by PagesController#deportes as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/deportes.html within layouts/application
+  Rendered pages/deportes.html within layouts/application (Duration: 10.3ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 119.4ms | Allocations: 1858)
+Completed 200 OK in 176ms (Views: 156.5ms | Allocations: 2754)
+
+
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 01:24:00 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 1418)
+Completed 200 OK in 50ms (Views: 34.7ms | Allocations: 1775)
+
+
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 01:28:02 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 599.3ms | Allocations: 2915)
+  Rendered layout layouts/application.html.erb (Duration: 642.4ms | Allocations: 4639)
+Completed 200 OK in 691ms (Views: 676.1ms | Allocations: 5526)
+
+
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 01:28:10 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 1322)
+Completed 200 OK in 45ms (Views: 35.4ms | Allocations: 1624)
+
+
+Started GET "/technology" for 127.0.0.1 at 2023-05-18 01:37:43 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 1673)
+Completed 200 OK in 60ms (Views: 51.8ms | Allocations: 2389)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-18 01:38:16 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 1318)
+Completed 200 OK in 41ms (Views: 33.2ms | Allocations: 1619)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-18 01:38:26 -0400
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 1346)
+Completed 200 OK in 41ms (Views: 33.9ms | Allocations: 1636)
+
+
